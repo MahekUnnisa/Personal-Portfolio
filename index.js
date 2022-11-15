@@ -7,7 +7,7 @@ const  PORT = process.env.PORT || 3000;
 //sending index.html file
 app.get('/', (req, res)=>{
     res.status(200);
-    res.sendFile(path.join(__dirname, '/routes/index.html'));
+    res.sendFile(path.join(__dirname, '/routes/home.html'));
 });
 
 //the server will listen on port 3000
