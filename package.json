@@ -1,0 +1,11 @@
+{
+  "name": "portfoliowebsite",
+  "version": "1.0.0",
+  "description": "This is Mahek Unnisa's Portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mahek Unnisa",
+  "license": "ISC"
+}
