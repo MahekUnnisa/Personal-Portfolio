@@ -1,4 +1,33 @@
-.heading{
-    background-color: blue;
-
+body{
+    background-color: rgba(34, 32, 34, 0.999);
+    color:white;
+    font-family: sans-serif;
 }
+.hero{
+    display:flex;
+    width: 100%;
+    height:100vh;
+    background-image: url(images/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hero1{
+    font-size: 39px;
+    margin-top: 300px;
+    margin-bottom: 30px;
+    margin-left: 90px;
+}
+.hero2{
+    display:flex;
+    margin-left:300px;
+    align-items: flex-start;
+    transform: rotate(90deg);
+}
+.nav-item{
+    display:flex;
+    margin-right:30px;
+    
+}
+
+
