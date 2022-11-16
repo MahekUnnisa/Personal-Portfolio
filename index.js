@@ -2,12 +2,13 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const  PORT = process.env.PORT || 3000;
-
+//static files
+app.use('/static', express.static('static'))
 //get method
 //sending index.html file
 app.get('/', (req, res)=>{
     res.status(200);
-    res.sendFile(path.join(__dirname, '/routes/home.html'));
+    res.sendFile(path.join(__dirname, 'routes/home.html'));
 });
 
 //the server will listen on port 3000
