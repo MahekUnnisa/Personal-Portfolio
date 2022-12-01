@@ -10,7 +10,7 @@ body{
     background: radial-gradient(circle, rgba(47,4,71,1) 0%, rgba(149,1,104,1) 100%);
 }
 .wrapper{
-    margin-bottom:250px;
+    margin-bottom:200px;
 }
 .nav{
     padding-top:15px;
@@ -94,6 +94,51 @@ button.projects:hover{
     width: 41%;
     border-radius: 50%;
 }
+.graphic-container{
+    /* background-color:rgb(47,4,71); */
+    flex-grow: 1;
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+}
+.graphic{
+    width:30%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: -43px;
+}
+.about{
+    background-color: #47034F;
+    /* color:rgb(8, 4, 11); */
+    display:flex;
+    justify-content: center;
+}
+.about-center{
+    flex: none;
+    height: 100vh;
+    justify-content: center;
+    width: 60%;
+    margin-bottom: 51px;
+    margin-top: 38px;
+}
+.about-head{
+    margin-top: 48px;
+    margin-bottom: 8px;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.about-2{
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-weight: normal;
+    line-height: 1.4rem;
+    margin-top: 20px;
+}
+
+
 
 /* SKills CSS */
 .skills-head{
