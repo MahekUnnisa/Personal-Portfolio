@@ -8,36 +8,23 @@
     <title>Mahek Unnisa</title>    
 </head>
 <body>
-    <div class="animation-bg"></div>
- 
-<!-- only used the JS bit underneath to generate the  box-shadow CSS box-shadow input.  list that layered shadow in line, let light that shine. 
--->
-<script>
-    function randomNumber(min, max) {
-        return Math.floor(Math.random() * (max - min + 1)) + min
-    }
-
-    const STAR_COUNT = 400
-    let result = ""
-    for(let i = 0; i < STAR_COUNT; i++){
-    result += `${randomNumber(-50, 50)}vw ${randomNumber(-50, 50)}vh ${randomNumber(0, 1)}px ${randomNumber(0, 1)}px #fff,`
-    }
-    console.log(result.substring(0, result.length - 1))
-</script>
     <div class="nav">
         <ul class="nav-list">
-            <li class="nav-item"><a href="#">Home</a></li>
+            <li class="nav-item"><a href="/">Home</a></li>
             <li class="nav-item"><a href="#">About</a></li>
             <li class="nav-item"><a href="#">Contact</a></li>
             <li class="nav-item"><a href="#">Blog</a></li>
-            <li class="nav-item"><button class="nav-button">Resume</button></li>
         </ul>
+        <button class="resume">Resume</button>
     </div>
     <div class="hero">
-        <h1 class="info">Hi, I am <span>Mahek.</span> I am a developer and Content Creator.</h1>
-    </div> 
-    <div>
-        <button class="more">More About Me</button>
+        <div class="hero1">
+            <span class="info">I am </span>
+            <span class="name">Mahek.</span>
+            <br>
+            <span class="info-2">I am a Fullstack Developer</span>
+        </div>
+        <img class="DP" src="/static/images/Pic.png" alt="">
     </div>
 </body>
 </html>
