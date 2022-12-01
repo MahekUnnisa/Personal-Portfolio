@@ -1,3 +1,4 @@
+/* test(CSS file for the project */
 body{
     font-family:sans-serif;
     color:white;
@@ -25,10 +26,6 @@ body{
     color:white;
     text-decoration: none;
     font-size: 16px;
-}
-div.nav ul.nav-list li.nav-item button.resume:hover{
-    color:rgb(0, 0, 0);
-    background-color: rgb(222, 131, 255);
 }
 .hero{
     display:grid;
