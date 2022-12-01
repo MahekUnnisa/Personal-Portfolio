@@ -9,6 +9,9 @@ body{
     background: rgb(47,4,71);
     background: radial-gradient(circle, rgba(47,4,71,1) 0%, rgba(149,1,104,1) 100%);
 }
+.wrapper{
+    margin-bottom:250px;
+}
 .nav{
     padding-top:15px;
     display:inline-flex;
