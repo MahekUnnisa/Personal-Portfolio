@@ -141,8 +141,8 @@ button.projects:hover{
     margin-top: 20px;
 }
 
-/* SKills CSS */
-.skills-container{
+/* Projs CSS */
+.projects-container{
     display:flex;
     flex-grow: 1;
     margin-top: 300px;
@@ -150,12 +150,12 @@ button.projects:hover{
     width: auto;
     max-width:1200px;
 }
-.skills-box{
+.projects-box{
     background: rgb(76, 2, 99);
 background: radial-gradient(circle, rgb(76, 2, 99) 0%, rgba(0,0,0,1) 100%);
     display:block;
     flex: none;
-    height: 100vh;
+    height: 72vh;
     justify-content: center;
     width: 100%;
     border-radius: 25px;
@@ -163,11 +163,24 @@ background: radial-gradient(circle, rgb(76, 2, 99) 0%, rgba(0,0,0,1) 100%);
     margin-top: 38px;
 }
 
-.skills-content{
+.projects-content{
     box-sizing: inherit;
+    display:grid;
+    /* gap: 20px; */
+    grid-template-columns: repeat(3, 1fr);
 }
-.columns{
-    display:flex
+.project-img{
+    width: 80%;
+    border-radius: 15px;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  .project-heading{
+    font-size: 30px;
+    font-weight:bold;
+    margin-left: 30px;
+    margin-top:30px;
+  }
+.gallery{
+    display: flex;
 }
-
-
