@@ -4,10 +4,10 @@ body{
     color:white;
     margin:0;
     padding:0;
-    box-sizing: border-box;
-    height:100vh;
-    background: rgb(47,4,71);
-    background: radial-gradient(circle, rgba(47,4,71,1) 0%, rgba(149,1,104,1) 100%);
+    box-sizing: border-box; 
+    background: rgb(75, 0, 116);
+    background: radial-gradient(circle, rgb(76, 1, 116) 0%, rgb(99, 1, 66) 100%);
+    
 }
 .wrapper{
     margin-bottom:200px;
@@ -28,22 +28,23 @@ body{
 .nav-item a{
     color:white;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
 }
 button.resume {
     background-color: transparent;
-    color: rgb(222, 131, 255);
-    border-color: rgb(222, 131, 255);
-    font-size: 16px;
+    color: rgb(255, 174, 251);
+    border-color: rgb(255, 174, 251);
+    font-size: 20px;
     border-radius: 33px;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     padding-right: 26px;
     padding-left: 26px;
-    margin-left: 28px;
+    margin-left: 30px;
+    margin-top: 30px;
 }
 button.resume:hover{
-    background-color: rgb(222, 131, 255);
+    background-color: rgb(255, 174, 251);
     color:rgba(20, 0, 27, 0.967);
     transition: 0.2s ease-in-out;
 }
@@ -68,22 +69,23 @@ button.resume:hover{
 }
 .info-2{
     font-size:20px;
+    margin-left:4px;
 }
 button.projects{
     background-color: transparent;
-    color: rgb(222, 131, 255);
-    border-color: rgb(222, 131, 255);
-    font-size: 21px;
+    color: rgb(255, 174, 251);
+    border-color: rgb(255, 174, 251);
+    font-size: 20px;
     border-radius: 33px;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-right: 26px;
     padding-left: 26px;
-    margin-left: 150px;
+    margin-left: 30px;
     margin-top: 30px;
 }
 button.projects:hover{
-    background-color: rgb(222, 131, 255);
+    background-color: rgb(255, 174, 251);
     color:rgba(20, 0, 27, 0.967);
     transition: 0.2s ease-in-out;
 }
@@ -109,18 +111,19 @@ button.projects:hover{
     margin-bottom: -43px;
 }
 .about{
-    background-color: #47034F;
+    background-color: #36013b;
     /* color:rgb(8, 4, 11); */
     display:flex;
     justify-content: center;
+    height: 500px;
 }
 .about-center{
     flex: none;
-    height: 100vh;
     justify-content: center;
     width: 60%;
-    margin-bottom: 51px;
+    margin-bottom: 100px;
     margin-top: 38px;
+    position: absolute ;
 }
 .about-head{
     margin-top: 48px;
@@ -138,12 +141,33 @@ button.projects:hover{
     margin-top: 20px;
 }
 
-
-
 /* SKills CSS */
-.skills-head{
-    font-size: 50px;
-    font-family: sans-serif;
-    margin-left: 90px;
+.skills-container{
+    display:flex;
+    flex-grow: 1;
+    margin-top: 300px;
+    position: relative;
+    width: auto;
+    max-width:1200px;
 }
+.skills-box{
+    background: rgb(76, 2, 99);
+background: radial-gradient(circle, rgb(76, 2, 99) 0%, rgba(0,0,0,1) 100%);
+    display:block;
+    flex: none;
+    height: 100vh;
+    justify-content: center;
+    width: 100%;
+    border-radius: 25px;
+    margin-bottom: 51px;
+    margin-top: 38px;
+}
+
+.skills-content{
+    box-sizing: inherit;
+}
+.columns{
+    display:flex
+}
+
 
