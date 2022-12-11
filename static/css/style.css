@@ -30,6 +30,9 @@ body{
     text-decoration: none;
     font-size: 18px;
 }
+.nav-item a:hover{
+    color:rgb(255, 174, 251);
+}
 button.resume {
     background-color: transparent;
     color: rgb(255, 174, 251);
